@@ -5,6 +5,120 @@
 #www.ids-net.com
 
 
+DEF Piece6 Transform {
+	translation	-14.25 -24.6817 2
+	rotation	1 0 0  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.0827467 0.224063
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	4
+			radius	3.5
+		}
+
+	}
+}
+DEF Piece5 Transform {
+	translation	14.25 -24.6817 2
+	rotation	1 0 0  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.0827467 0.224063
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	4
+			radius	3.5
+		}
+
+	}
+}
+DEF Piece4 Transform {
+	translation	28.5 0 2
+	rotation	1 0 0  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.0827467 0.224063
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	4
+			radius	3.5
+		}
+
+	}
+}
+DEF Piece3 Transform {
+	translation	14.25 24.6817 2
+	rotation	1 0 0  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.0827467 0.224063
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	4
+			radius	3.5
+		}
+
+	}
+}
+DEF Piece2 Transform {
+	translation	-14.25 24.6817 2
+	rotation	1 0 0  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.0827467 0.224063
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	4
+			radius	3.5
+		}
+
+	}
+}
+DEF Piece1 Transform {
+	translation	-28.5 0 2
+	rotation	1 0 0  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				ambientIntensity	0.2
+				diffuseColor	0.8 0.0827467 0.224063
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	4
+			radius	3.5
+		}
+
+	}
+}
 DEF Perceuse Transform {
 	translation	15 25 40
 	rotation	1 0 0  1.5708
@@ -27,7 +141,7 @@ Viewpoint {
 	position	0 -110 103.6
 }
 DEF Plateau Transform {
-	translation	0 0 0
+	translation	1.19209e-006 4.76837e-007 3.8147e-006
 	children DEF CATIA__STL_Shape Shape {
 		appearance	Appearance {
 			material	DEF CATIA__STL_Material Material {
