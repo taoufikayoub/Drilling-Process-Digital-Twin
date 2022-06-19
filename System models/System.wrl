@@ -5,6 +5,23 @@
 #www.ids-net.com
 
 
+DEF Position_Controller Transform {
+	translation	-14.25 24.6817 40
+	rotation	1 0 0  1.5708
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Cylinder {
+			height	20
+			radius	2
+		}
+
+	}
+}
 DEF Piece6 Transform {
 	translation	-14.25 -24.6817 2
 	rotation	1 0 0  1.5708
@@ -120,7 +137,7 @@ DEF Piece1 Transform {
 	}
 }
 DEF Perceuse Transform {
-	translation	15 25 40
+	translation	14.25 24.6817 40
 	rotation	1 0 0  1.5708
 	children Shape {
 		appearance	Appearance {
