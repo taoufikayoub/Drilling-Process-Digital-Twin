@@ -128,6 +128,9 @@ DEF Plateau Transform {
 	children DEF CATIA__STL_Shape Shape {
 		appearance	Appearance {
 			material	DEF CATIA__STL_Material Material {
+				ambientIntensity	0.3
+				diffuseColor	0.72 0.72 0.72
+				emissiveColor	0 0 0
 			}
 
 		}
@@ -1463,10 +1466,7 @@ DEF Position_Controller Transform {
 		appearance	Appearance {
 			material	DEF CATIA__STL_Material_0002 Material {
 				ambientIntensity	0.3
-				diffuseColor	0.8 0.8 0.8
 				shininess	1
-				specularColor	0 0 0
-				transparency	0
 			}
 
 		}
