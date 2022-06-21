@@ -1,4 +1,4 @@
-function x = Read_DTOPC_Func(y)
+function [M3_,M2_,M1Bas_,M1_Haut_,M4_,M5_,M6_] = Read_DTOPC_Func
 %Variables
 persistent init_Server;
 persistent init_Nodes;
